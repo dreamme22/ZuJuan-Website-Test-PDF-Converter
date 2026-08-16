@@ -1,4 +1,4 @@
-# PDF 2 TXT / DOCX 转换工具
+# PDF to TXT / DOCX 转换工具
 
 将 PDF 试卷 / 文档一键转换为 TXT 和带 Word 原生公式（OMML）的 DOCX。
 
