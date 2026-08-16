@@ -1,13 +1,13 @@
 # PDF 2 TXT / DOCX 转换工具
 
-将 PDF 试卷 / 文档一键转换为 **TXT** 和带 **Word 原生公式（OMML）**的 **DOCX**。
+将 PDF 试卷 / 文档一键转换为 TXT 和带 Word 原生公式（OMML）的 DOCX。
 
-识别步骤：把 PDF 每一页渲染成高清图片 → 调用 **本地视觉大模型**（也可切换云端 API）逐页识别文字与公式 → 忠实地按题目顺序还原题干与选项 → 生成 `.txt` 与 `.docx`。
+识别步骤：把 PDF 每一页渲染成高清图片 → 调用本地视觉大模型（也可切换云端 API）逐页识别文字与公式 → 忠实地按题目顺序还原题干与选项 → 生成 `.txt` 与 `.docx`。
 
 ## 特性
 
 - ✅ 一键转换：拖拽 PDF 到 bat 或命令行运行
-- ✅ 公式转成 **Word 原生公式对象**，可在 Word 中直接点击编辑
+- ✅ 公式转成 Word 原生公式对象，可在 Word 中直接点击编辑
 - ✅ 支持本地模型（Ollama）与 OpenAI 兼容云端 API 双配置
 - ✅ 忠实还原题目顺序、题干、选项
 
@@ -25,7 +25,7 @@ pdf2txt-docx/
 ## 环境要求
 
 - Python 3.9+
-- 本机装有 **Microsoft Office**（用于 `MML2OMML.XSL` 把 MathML 转成原生公式）
+- 本机装有 Microsoft Office（用于 `MML2OMML.XSL` 把 MathML 转成原生公式）
 - 使用本地模型时需安装 [Ollama](https://ollama.com)
 
 ### 安装依赖
@@ -90,13 +90,13 @@ python cnvpdf.py "试卷.pdf" --profile deepseek
 
 - `active`：当前启用的配置档
 - `local`：本地 Ollama 视觉模型，无需联网、免费
-- `deepseek`：云端 API 示例，**请填入你自己的 key**（不要提交真实 key 到仓库）
+- `deepseek`：云端 API 示例，请填入你自己的 key
 - `native`: `"ollama"` 时走 Ollama 原生接口，可调大 `num_ctx` 上下文
 
 ## 输出说明
 
 - `.txt`：纯文本，含全部题干与选项（公式以 LaTeX 形式呈现，便于阅读）
-- `.docx`：按题目顺序排版，公式为 **Word 原生公式对象**，可直接编辑
+- `.docx`：按题目顺序排版，公式为 Word 原生公式对象，可直接编辑
 
 ## 常见问题
 
