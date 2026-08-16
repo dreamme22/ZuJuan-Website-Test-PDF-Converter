@@ -1,0 +1,20 @@
+{
+  "active": "local",
+  "profiles": {
+    "local": {
+      "base_url": "http://localhost:11434/v1",
+      "model": "qwen3-vl:4b",
+      "api_key": "ollama",
+      "native": "ollama",
+      "num_ctx": 32768,
+      "timeout": 600
+    },
+    "deepseek": {
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-v4-pro",
+      "api_key": "sk-在这里填你的key",
+      "timeout": 600
+    }
+  },
+  "timeout": 600
+}
