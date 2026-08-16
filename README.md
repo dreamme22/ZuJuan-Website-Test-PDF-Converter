@@ -6,10 +6,10 @@
 
 ## 特性
 
-- ✅ 一键转换：拖拽 PDF 到 bat 或命令行运行
-- ✅ 公式转成 Word 原生公式对象，可在 Word 中直接点击编辑
-- ✅ 支持本地模型（Ollama）与 OpenAI 兼容云端 API 双配置
-- ✅ 忠实还原题目顺序、题干、选项
+- <img src="assets/icon-check.svg" width="16" height="16" align="center" alt=""> 一键转换：拖拽 PDF 到 bat 或命令行运行
+- <img src="assets/icon-check.svg" width="16" height="16" align="center" alt=""> 公式转成 **Word 原生公式对象**，可在 Word 中直接点击编辑
+- <img src="assets/icon-check.svg" width="16" height="16" align="center" alt=""> 支持本地模型（Ollama）与 OpenAI 兼容云端 API 双配置
+- <img src="assets/icon-check.svg" width="16" height="16" align="center" alt=""> 忠实还原题目顺序、题干、选项
 
 ## 项目结构
 
